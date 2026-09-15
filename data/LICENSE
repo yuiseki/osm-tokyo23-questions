@@ -63,6 +63,12 @@ Answers
 No answers are stored here. Answers computed from these questions against
 OpenStreetMap are themselves derived from OpenStreetMap and carry ODbL.
 
+The scripts
+
+scripts/ is code, not data. It is MIT, under the LICENSE file in the
+repository root, and it is not part of this dataset: what is published to the
+Hub is this directory.
+
 Notice
 
 ODbL-1.0 section 4.2 permits redistribution to satisfy the notice requirement
