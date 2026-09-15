@@ -6,28 +6,65 @@ Everything under this directory is a Derivative Database of OpenStreetMap.
   (c) OpenStreetMap contributors, available under the Open Database License.
   https://www.openstreetmap.org/copyright
 
-The contents are extracted from the taginfo database dumps, which are
-distributed under ODbL:
+What is derived from OpenStreetMap
 
-  https://taginfo.openstreetmap.org/download
-  https://taginfo.openstreetmap.org/about
+The questions name real places, brands, operators and wards, and those names
+were read from OpenStreetMap, as was everything recorded about them:
 
-Two dumps of 2026-01-30 are used. taginfo-wiki.db supplies the descriptions,
-the opening paragraphs, the related terms, the status and the geometry
-applicability, all of which originate in pages of the OpenStreetMap Wiki.
-taginfo-db.db supplies the worldwide usage counts, which are aggregated from
-OpenStreetMap data itself. data/provenance.yaml records which tables were read
-and which were deliberately skipped.
+  data/seeds/        the values, and what each one is in OpenStreetMap: its
+                     tags, its element ids, how many features it matches
+  data/questions/    the filled sentences, and the slot files they are made of
+  data/originals/    the written sentences
+  data/questions.jsonl
+  data/README.md, data/provenance.yaml
+                     which quote the same values as examples
 
-The extraction keeps the wording of the source: descriptions are copied
-verbatim, and the opening paragraphs are the wiki text with templates and
-markup resolved, split into sentences. src/formats.py assembles these fields
-into sentences at load time; those sentences are likewise derived from OSM and
-carry ODbL, as does any index or embedding built from them.
+data/templates/ holds sentences with their literal spans replaced by slots.
+Those contain no value read from OpenStreetMap.
+
+Where it was read from
+
+Not from taginfo, and not from the live API. From one frozen extract:
+
+  tokyo23-260831.osm.pbf
+  md5 44a4ba2182379c147f20a27ad1b513ef, 87,399,745 bytes
+  osm_base 2026-08-30T23:50:59Z
+
+the twenty-three special wards of Tokyo cut from the OpenStreetMap planet file
+of 2026-08-31, published as:
+
+  https://huggingface.co/datasets/yuiseki/osm-tokyo23-src-2026-08
+
+That extract was imported into a local Overpass API server, the
+wiktorn/overpass-api image pinned in the source repository's
+docker/compose.yml, and the scripts here asked that server. Doing it locally
+against a pinned snapshot is what makes the resolution repeatable; an earlier
+run asked a public Overpass instance holding a different snapshot and
+disagreed, which is recorded in data/README.md. Both serve OpenStreetMap data
+and both carry ODbL.
+
+The planet file this all descends from:
+
+  https://planet.openstreetmap.org/pbf/planet-260831.osm.pbf
+  md5 c67437924cf55de40e8708c7192f354d
+
+data/provenance.yaml records the rest: which values were checked, what was
+checked about them, and what was deliberately left unchecked.
+
+What is not derived from OpenStreetMap
+
+The sentences are the author's own writing. A template, and a written question
+before its values are put in, is prose a person composed, not a fact read out
+of a database. The factual content of a filled question is from OpenStreetMap
+and carries ODbL; the wording around it is the author's.
+
+Answers
+
+No answers are stored here. Answers computed from these questions against
+OpenStreetMap are themselves derived from OpenStreetMap and carry ODbL.
+
+Notice
 
 ODbL-1.0 section 4.2 permits redistribution to satisfy the notice requirement
 by including either a copy of the licence or its URI. This file supplies the
 URI above. The full text is at that address.
-
-The MIT licence in the repository root covers the source code in src/ and does
-not apply here.
