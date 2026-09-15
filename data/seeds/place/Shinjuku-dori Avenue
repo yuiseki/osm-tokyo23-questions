@@ -1,0 +1,6 @@
+name:en=Shinjuku-dori Ave.
+kind=highway=secondary,highway=tertiary,highway=trunk,highway=trunk_link
+features=75
+match=exact
+element=way
+osm=way/23044319 way/39436502 way/39436612 way/59339114 way/136508008 way/155235356 way/155235380 way/163198801 way/169674679 way/169674680 way/169674681 way/169674682

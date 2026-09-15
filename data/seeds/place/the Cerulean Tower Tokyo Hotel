@@ -1,0 +1,6 @@
+kind=tourism=hotel
+features=1
+match=exact
+element=way
+attributes=building:levels,internet_access
+osm=way/55441040

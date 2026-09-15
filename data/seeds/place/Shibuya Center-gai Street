@@ -1,0 +1,5 @@
+kind=highway=pedestrian,highway=residential,highway=unclassified
+features=4
+match=exact
+element=way
+osm=way/48391641 way/87250185 way/542478931 way/1154117302

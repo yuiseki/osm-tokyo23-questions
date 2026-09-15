@@ -1,0 +1,7 @@
+kind=tourism=hotel
+features=1
+match=exact
+element=way
+operators=株式会社京王プラザホテル
+attributes=building:levels
+osm=way/116596175

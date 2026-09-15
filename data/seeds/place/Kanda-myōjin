@@ -1,0 +1,6 @@
+kind=amenity=community_centre
+features=1
+match=contains
+element=way
+attributes=building:levels
+osm=way/1228847929

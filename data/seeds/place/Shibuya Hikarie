@@ -1,0 +1,7 @@
+kind=shop=mall
+features=1
+match=exact
+element=way
+operators=Shibuya Hikarie
+attributes=building:levels,start_date,internet_access,opening_hours
+osm=way/204091879

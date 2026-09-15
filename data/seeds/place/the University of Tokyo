@@ -1,0 +1,6 @@
+kind=amenity=college,amenity=hospital,amenity=library,amenity=university,building=university,landuse=residential,tourism=information,tourism=museum
+features=20
+match=contains
+element=node,relation,way
+operators=東京大学
+osm=node/1420783540 node/1420783669 node/1420783694 node/4683268966 node/4848865521 node/6033613786 node/6110617086 way/27406744 way/137625432 way/157488576 way/240756420 way/240756591

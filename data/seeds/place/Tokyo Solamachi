@@ -1,0 +1,6 @@
+kind=shop=mall
+features=1
+match=exact
+element=relation
+attributes=building:levels,start_date,opening_hours
+osm=relation/7967788

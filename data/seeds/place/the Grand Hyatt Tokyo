@@ -1,0 +1,7 @@
+kind=tourism=hotel
+features=1
+match=exact
+element=way
+operators=Grand Hyatt Tokyo
+attributes=start_date
+osm=way/219645624

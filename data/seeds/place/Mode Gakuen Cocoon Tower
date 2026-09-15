@@ -1,0 +1,6 @@
+kind=building=college
+features=1
+match=exact
+element=way
+attributes=building:levels,start_date
+osm=way/145495557

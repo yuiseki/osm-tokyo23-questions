@@ -1,0 +1,6 @@
+kind=amenity=place_of_worship
+features=1
+match=exact
+element=way
+attributes=opening_hours
+osm=way/516751953

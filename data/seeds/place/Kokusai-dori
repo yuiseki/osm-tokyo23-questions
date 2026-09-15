@@ -1,0 +1,5 @@
+kind=highway=secondary
+features=18
+match=exact
+element=way
+osm=way/58686908 way/58689855 way/99508337 way/99510470 way/148407882 way/148409041 way/236667129 way/243206481 way/328531813 way/395264608 way/438137495 way/438137502

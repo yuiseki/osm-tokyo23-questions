@@ -1,0 +1,6 @@
+kind=railway=station
+features=2
+match=contains
+element=node
+operators=Keisei Electric Railway;Tokyo Metro
+osm=node/3666792383 node/7992223096

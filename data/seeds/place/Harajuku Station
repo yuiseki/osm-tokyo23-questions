@@ -1,0 +1,6 @@
+kind=railway=station
+features=1
+match=exact
+element=node
+operators=East Japan Railway Company
+osm=node/6806051378

@@ -1,0 +1,7 @@
+kind=shop=mall
+features=1
+match=exact
+element=way
+operators=東武鉄道
+attributes=building:levels,start_date
+osm=way/154645812

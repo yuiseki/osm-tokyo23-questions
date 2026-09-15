@@ -1,0 +1,6 @@
+kind=railway=station
+features=5
+match=exact
+element=node
+operators=Toei; 東京地下鉄
+osm=node/1923768928 node/1926277330 node/1926277338 node/5409192473 node/7786715966

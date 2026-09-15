@@ -1,0 +1,5 @@
+kind=leisure=park
+features=2
+match=exact
+element=way
+osm=way/94518684 way/209465552

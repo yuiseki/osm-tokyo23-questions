@@ -1,0 +1,5 @@
+kind=tourism=hotel
+features=1
+match=exact
+element=node
+osm=node/3888784785

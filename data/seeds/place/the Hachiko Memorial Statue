@@ -1,0 +1,6 @@
+kind=tourism=artwork
+features=1
+match=exact
+element=node
+attributes=start_date
+osm=node/597685675

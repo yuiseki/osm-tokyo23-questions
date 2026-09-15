@@ -1,0 +1,7 @@
+kind=leisure=park
+features=1
+match=exact
+element=relation
+operators=宮内庁
+attributes=start_date,opening_hours
+osm=relation/5415394

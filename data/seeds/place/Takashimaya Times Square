@@ -1,0 +1,7 @@
+kind=building=yes,shop=mall
+features=2
+match=exact
+element=relation,way
+operators=株式会社高島屋
+attributes=building:levels,start_date
+osm=way/541875192 relation/7754186

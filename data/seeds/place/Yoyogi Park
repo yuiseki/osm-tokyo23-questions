@@ -1,0 +1,7 @@
+kind=leisure=park
+features=1
+match=exact
+element=relation
+operators=東京都公園協会
+attributes=start_date
+osm=relation/19862716

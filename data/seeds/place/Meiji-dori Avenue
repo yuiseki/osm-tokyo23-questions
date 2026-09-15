@@ -1,0 +1,5 @@
+kind=highway=primary,highway=primary_link,highway=secondary,highway=trunk
+features=173
+match=exact
+element=way
+osm=way/45018631 way/45018632 way/53542680 way/88561225 way/88561229 way/88561230 way/88561232 way/91096665 way/91096667 way/91096669 way/91096670 way/92651451

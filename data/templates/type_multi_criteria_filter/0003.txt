@@ -1,0 +1,1 @@
+List every {category} in {area} that has at least {count} {neighbour_1} and at least {count} {neighbour_2} within {radius} of it.

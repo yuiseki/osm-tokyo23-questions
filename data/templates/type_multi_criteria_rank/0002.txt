@@ -1,0 +1,1 @@
+Among {category} within {outer_radius} of {place} operated by {operator}, which one has the most {neighbour} within {inner_radius} of it?

@@ -1,0 +1,1 @@
+How many {category} are within {radius} of {place}?

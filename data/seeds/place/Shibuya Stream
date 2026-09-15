@@ -1,0 +1,6 @@
+kind=building=commercial
+features=1
+match=exact
+element=way
+attributes=building:levels,start_date,internet_access,opening_hours
+osm=way/521438304

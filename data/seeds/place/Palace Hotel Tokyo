@@ -1,0 +1,5 @@
+kind=tourism=hotel
+features=1
+match=exact
+element=relation
+osm=relation/5823721

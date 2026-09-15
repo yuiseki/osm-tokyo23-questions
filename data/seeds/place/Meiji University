@@ -1,0 +1,5 @@
+kind=amenity=university
+features=8
+match=exact
+element=node,relation
+osm=node/1420781349 node/1420781350 node/1420781351 node/1420781352 node/1420781353 node/1420781354 node/10297086140 relation/3608646

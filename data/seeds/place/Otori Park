@@ -1,0 +1,6 @@
+kind=leisure=park
+features=1
+match=exact
+element=way
+attributes=internet_access
+osm=way/1058940478

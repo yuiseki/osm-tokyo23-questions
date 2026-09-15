@@ -1,0 +1,5 @@
+kind=building=yes,tourism=hotel
+features=2
+match=exact
+element=node,way
+osm=node/9737781239 way/329610782

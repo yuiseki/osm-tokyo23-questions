@@ -1,0 +1,6 @@
+kind=railway=station
+features=5
+match=exact
+element=node
+operators=East Japan Railway Company; Odakyu Electric Railway; Toei; 東京地下鉄
+osm=node/1926277346 node/2389061844 node/2389061846 node/2389826024 node/6283384525

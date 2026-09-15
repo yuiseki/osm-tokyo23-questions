@@ -1,0 +1,6 @@
+kind=railway=station
+features=4
+match=exact
+element=node
+operators=Toei; 東京地下鉄; 東武鉄道; 首都圏新都市鉄道
+osm=node/3666779220 node/6237151013 node/7412555523 node/7791605886

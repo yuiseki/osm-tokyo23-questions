@@ -1,0 +1,7 @@
+kind=amenity=theatre
+features=1
+match=exact
+element=way
+operators=NHKサービスセンター
+attributes=building:levels
+osm=way/102123743

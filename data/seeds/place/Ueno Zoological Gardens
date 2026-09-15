@@ -1,0 +1,7 @@
+kind=leisure=park,tourism=zoo
+features=2
+match=exact
+element=relation,way
+operators=上野恩賜公園管理所
+attributes=start_date,opening_hours
+osm=way/1065775336 relation/5413419

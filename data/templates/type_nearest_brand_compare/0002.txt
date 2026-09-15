@@ -1,0 +1,1 @@
+Which is closer to {place} operated by {operator}, a {brand_1} or a {brand_2}?

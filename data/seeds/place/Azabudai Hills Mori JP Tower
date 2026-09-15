@@ -1,0 +1,6 @@
+kind=building=commercial
+features=1
+match=exact
+element=way
+attributes=building:levels,start_date
+osm=way/1158739441

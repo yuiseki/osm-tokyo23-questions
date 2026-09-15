@@ -1,0 +1,5 @@
+kind=highway=tertiary
+features=43
+match=exact
+element=way
+osm=way/26604013 way/31610468 way/87250179 way/215955234 way/215955235 way/215955359 way/258432971 way/260252968 way/261815523 way/261815524 way/265139656 way/265139657

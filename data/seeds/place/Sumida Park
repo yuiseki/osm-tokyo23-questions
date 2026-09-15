@@ -1,0 +1,6 @@
+kind=leisure=park
+features=1
+match=exact
+element=relation
+attributes=start_date,opening_hours
+osm=relation/14235095

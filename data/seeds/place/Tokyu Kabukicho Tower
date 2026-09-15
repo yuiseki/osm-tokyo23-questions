@@ -1,0 +1,6 @@
+kind=building=retail
+features=1
+match=exact
+element=way
+attributes=building:levels,start_date,opening_hours
+osm=way/852000385

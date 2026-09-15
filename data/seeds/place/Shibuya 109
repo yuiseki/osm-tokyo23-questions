@@ -1,0 +1,7 @@
+kind=shop=mall
+features=1
+match=exact
+element=way
+operators=株式会社SHIBUYA109エンタテイメント
+attributes=building:levels,opening_hours
+osm=way/55895868

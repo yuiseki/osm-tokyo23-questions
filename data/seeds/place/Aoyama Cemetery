@@ -1,0 +1,5 @@
+kind=landuse=cemetery
+features=1
+match=exact
+element=way
+osm=way/37721897

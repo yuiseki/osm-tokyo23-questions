@@ -1,0 +1,55 @@
+# Where this data comes from. Everything needed to rebuild it.
+questions:
+  written_by: the author, in English
+  not_written_by: |
+    No model wrote any question in this set, and no model chose any value in
+    the seeds. The commercial assistant that helped build it wrote code and
+    documentation only. Where a sentence reads oddly, the oddity is a
+    person's.
+  origins:
+    - origin: written
+      count: 41
+      about: |
+        A sentence as a person wrote it. 23 from scratch, 11 the same
+        sentences with the anchor swapped by a script, 3 written into a
+        conversation on 2026-09-14, and 4 more on 2026-09-15 that opened new
+        types. The per-question `source` field says which.
+      earlier_life: |
+        The first 34 were built for the poi-qa experiments and carry their
+        original ids; docs/ADR/0006 has the mapping.
+    - origin: filled
+      count: 90
+      about: |
+        A template and curated values, five for each of the eighteen types
+        that have a template. Nothing generated the prose: the template is a
+        sentence a person wrote with its literal spans replaced by slots.
+checked_against:
+  name: tokyo23-260831.osm.pbf
+  published_as: https://huggingface.co/datasets/yuiseki/osm-tokyo23-src-2026-08
+  about: |
+    The twenty-three special wards of Tokyo, cut from planet-260831. Served
+    locally by wiktorn/overpass-api so that the check is repeatable. The same
+    dataset ships the extract as PostGIS parquet, so the answers can be
+    computed in SQL or in Overpass QL from one frozen source.
+  md5: 44a4ba2182379c147f20a27ad1b513ef
+  bytes: 87399745
+  osm_base: 2026-08-30T23:50:59Z
+  what_was_checked: |
+    That each filled question has something to find: the count is non-zero,
+    or for the two sensitivity types the counts at the two radii differ, or
+    for the ranking types there is more than one candidate to rank. For
+    `existence` both answers are kept on purpose, three yes and two no.
+    Answers themselves are not stored. docs/ADR/0007 has the rules.
+  not_checked: |
+    The 41 written questions. They are what a person asked, and a question
+    without an answer in this extract is still a question a person asked.
+    tokyo/0040 names Sapporo Station, which this extract does not cover, and
+    that is the point of it.
+osm:
+  source: https://www.openstreetmap.org/
+  license: ODbL
+  license_note: |
+    Place names, brand names, operator names and ward names in the seeds were
+    read from OpenStreetMap, so this is a Derivative Database and carries
+    ODbL. Attribute the source, and share alike if you redistribute a
+    modified version.

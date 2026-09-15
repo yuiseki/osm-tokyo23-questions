@@ -1,0 +1,5 @@
+kind=highway=tertiary,highway=tertiary_link
+features=26
+match=exact
+element=way
+osm=way/23334685 way/33476791 way/215956959 way/404515763 way/907042281 way/907042282 way/1033547235 way/1035760830 way/1071659157 way/1071659158 way/1071659165 way/1074238465

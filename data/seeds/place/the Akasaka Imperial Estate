@@ -1,0 +1,5 @@
+kind=landuse=residential
+features=1
+match=exact
+element=way
+osm=way/558850354

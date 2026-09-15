@@ -1,0 +1,6 @@
+kind=railway=station
+features=2
+match=exact
+element=node
+operators=East Japan Railway Company; 東京地下鉄
+osm=node/266085875 node/2558121925

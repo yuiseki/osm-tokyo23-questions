@@ -1,0 +1,6 @@
+kind=tourism=attraction
+features=1
+match=exact
+element=way
+attributes=start_date,opening_hours
+osm=way/288269147

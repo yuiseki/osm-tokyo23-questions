@@ -1,0 +1,6 @@
+kind=railway=station
+features=5
+match=exact
+element=node
+operators=East Japan Railway; Keiō railway; Tokyo Metro; Tokyu Railways
+osm=node/241896099 node/3623713008 node/6219204314 node/6219636719 node/6219656544

@@ -1,0 +1,7 @@
+kind=shop=department_store
+features=1
+match=exact
+element=relation
+operators=株式会社三越伊勢丹
+attributes=opening_hours
+osm=relation/7872611

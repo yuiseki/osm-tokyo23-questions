@@ -1,0 +1,1 @@
+How many {category} are located near {place}?

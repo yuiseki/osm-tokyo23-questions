@@ -1,0 +1,6 @@
+kind=building=yes
+features=1
+match=exact
+element=relation
+attributes=building:levels
+osm=relation/2266005

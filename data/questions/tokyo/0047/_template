@@ -1,0 +1,1 @@
+List every {category} within {radius_1} of {place} that also has a {neighbour} within {radius_2} of it.

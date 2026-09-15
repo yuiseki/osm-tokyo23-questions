@@ -1,0 +1,5 @@
+kind=amenity=place_of_worship
+features=1
+match=exact
+element=way
+osm=way/102792887

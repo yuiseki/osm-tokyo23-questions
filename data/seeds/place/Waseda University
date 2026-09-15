@@ -1,0 +1,7 @@
+kind=amenity=university
+features=5
+match=contains
+element=node,relation,way
+operators=学校法人早稲田大学
+attributes=start_date
+osm=node/571755079 way/39655713 way/39655715 way/94515929 relation/8115838
