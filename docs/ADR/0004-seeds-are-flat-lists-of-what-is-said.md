@@ -226,3 +226,88 @@ mechanically is not safe and this file does not start doing it.
 
 All eight towers carry `building:levels`, which takes "How many storeys does
 X have" from nine fillings to seventeen.
+
+## Added 2026-09-16, twenty categories where models are weak
+
+The nine categories this file started with, and the eighteen values they grew
+into, are the words a person reaches for first: cafe, restaurant, hotel, park,
+church, cinema, bar, nightclub, convenience store. Three models writing SQL
+against a frozen extract name those tags correctly almost every time. The
+collection was therefore asking about the part of OpenStreetMap that is
+already known.
+
+Twenty tags were added on the opposite criterion, ranked by how often three
+models failed to name them: Qwen3.6-35B-A3B, Qwen2.5-Coder-3B and
+Qwen2.5-Coder-1.5B, asked for SQL with no examples, over 1,206 questions.
+
+    shop=car_repair      86%   automobile repair shop
+    shop=bicycle         85%   bike shop
+    shop=hobby           85%   hobby shop
+    tourism=museum       85%   museum
+    shop=confectionery   80%   confectionery store
+    leisure=pitch        79%   sports pitch
+    office=courier       78%   courier service
+    shop=butcher         78%   butcher shop
+    shop=pastry          75%   pastry shop
+    office=estate_agent  75%   real estate agent
+    shop=video_games     73%   video game store
+    leisure=garden       68%   garden
+    amenity=parcel_locker 67%  parcel locker
+    shop=florist         65%   flower shop
+    shop=electronics     63%   consumer electronics store
+    shop=shoes           57%   shoe store
+    amenity=hospital     33%   hospital
+    amenity=college      26%   college
+    amenity=parking      15%   parking area
+    office=government    86%   government office
+
+The boundary between `shop` and `amenity` and `craft` and `office` is where
+they fall off. The value is in the question and the key is not, so a model
+reading "bakeries" still has to know it is `shop` and not `amenity`, and the
+recorded errors are `shop=bakery` written as `amenity=bakery`,
+`shop=hairdresser` as `craft=hairdresser`, `amenity=pharmacy` as
+`healthcare=pharmacy`.
+
+Three candidates were dropped. `amenity=atm` and `amenity=shower` are named
+correctly 93% and 94% of the time, so they would add words without adding
+difficulty, and "shower" names a bathroom fitting as readily as a public one.
+`tourism=information` is in ADR 0009: no English noun means that tag.
+
+## Where the nouns came from, and where they did not
+
+Not from the tag value. The sister repository's generator forms its noun by
+adding an s to the value, and against these twenty tags that produces
+"electronicses", "shoeses", "video gameses", "conveniences", "governments" and
+"parkings". The warning earlier in this file, that a mechanical plural gave
+"clotheses", has now been earned twice.
+
+Not from a model either. What fills a slot here is written or chosen by a
+person and that has not changed.
+
+Candidates were gathered from Wikidata, whose property `P1282` holds the
+OpenStreetMap tag a concept corresponds to, written as `shop=bakery` without
+the wiki's `Tag:` prefix. The English label of the item carrying that
+statement is a noun: `shop=video_games` gives "video game store",
+`amenity=parking` gives "parking area", `shop=florist` gives "flower shop",
+which is a better answer than "florist" because it is not the tag value.
+Twenty of the twenty-three tags had such an item. The OSM wiki's own
+`related_terms`, through osm-tag-corpus, filled a little of the rest, though
+they are mostly German and Spanish.
+
+The author read the candidates and wrote the two forms. Two did not come from
+any lookup: `office=government` has no Wikidata item with that property and
+`tourism=information` was abandoned. One was overruled: Wikidata calls
+`leisure=pitch` an association football pitch, and the OSM tag is any sport,
+so the value is "sports pitch".
+
+Capitalisation was normalised down. The candidates arrived as "Government
+office" and the eighteen values already here are lower case except the proper
+adjective in "Shinto shrine", and a capital mid-sentence would have been this
+collection's only one.
+
+## What this does not yet establish
+
+That the questions these fill have answers. The tags were taken from questions
+that are answerable in `tokyo23-260831.osm.pbf`, so each tag has features
+within reach of some anchor, and that is not the same as every filling being
+non-empty. ADR 0007 is the rule and `scripts/check_nonzero.py` is the check.

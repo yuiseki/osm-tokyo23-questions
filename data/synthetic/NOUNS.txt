@@ -1,0 +1,281 @@
+# Nouns for the tags this collection does not have
+#
+# One block per OSM tag that the synthesised Tokyo questions use, that
+# data/seeds/category does not have, and that has questions with an answer in
+# tokyo23-260831.osm.pbf. Sorted by how often three models failed to name the
+# tag while writing SQL for it, so the ones at the top are the ones worth
+# having.
+#
+# Write the noun a person would use on the two lines. Nothing here is filled
+# in: the candidate is a candidate. What fills a slot in this collection is
+# written or chosen by a person, and a label copied out of Wikidata by a
+# script has been neither until someone reads it.
+#
+# candidate  the English label of the Wikidata item whose P1282 is this tag.
+#            Usually the noun wanted, sometimes narrower than the OSM tag.
+# osm        what the OSM wiki says the tag means, through osm-tag-corpus.
+# wikidata   what Wikidata says its item means. Where the two disagree, the
+#            candidate is describing something else.
+# generator  the noun the synthesiser used, which is the tag value with an s.
+#
+# Leave both lines empty to skip a tag. Some tags should be skipped: where the
+# features under one tag are unlike each other, no noun names them, and forcing
+# one writes a question that does not mean what it counts.
+
+[tourism=information]
+candidate = (Wikidata has no item with P1282 for this tag)
+# models failed to name it: 100%
+# in the frozen extract: 5190 features
+# osm       Information for tourists and visitors, including information offices
+# generator informations
+# wiki also tourist information
+# skipped   No English noun means this tag. Half of the 5,181 features are
+#           boards, a quarter are maps, a sixth are guideposts and 78 are
+#           offices, and any noun a person would use names one of those and
+#           not the rest. A question built on it would ask about information
+#           centres and be answered by counting signposts.
+singular = 
+plural   = 
+
+[office=government]
+candidate = (Wikidata has no item with P1282 for this tag)
+# models failed to name it: 86%
+# in the frozen extract: 331 features
+# osm       An office of a (supra)national, regional or local government agency or department
+# generator governments
+# wiki also amt, dienststelle, ministerien, ministerium, regierung
+singular = Government office
+plural   = Government offices
+
+[shop=car_repair]
+candidate = automobile repair shop
+# models failed to name it: 86%
+# in the frozen extract: 167 features
+# osm       A business where cars are repaired.
+# wikidata  repair shop where automobiles are repaired by auto mechanics and electricians
+# generator car repairs
+# wiki also automechaniker, autowerkstatt, reparaturwerkstatt, werkstatt, auto mechanic
+singular = Automobile repair shop
+plural   = Automobile repair shops
+
+[shop=bicycle]
+candidate = bike shop
+# models failed to name it: 85%
+# in the frozen extract: 470 features
+# osm       A store where you can buy and/or repair your bike and buy accessories.
+# wikidata  business specializing in bicycle sale, maintenance and parts
+# generator bicycles
+# wiki also bicicletas, bicycle shop, taller de bicicletas, tienda de bicicletas
+singular = Bike shop
+plural   = Bike shops
+
+[shop=hobby]
+candidate = hobby shop
+# models failed to name it: 85%
+# in the frozen extract: 95 features
+# osm       (none)
+# wikidata  shop selling recreational items for hobbyists
+# generator hobbies
+singular = Hobby shop
+plural   = Hobby shops
+
+[tourism=museum]
+candidate = museum
+# models failed to name it: 85%
+# in the frozen extract: 391 features
+# osm       A museum: an institution with exhibitions on scientific, historical, cultural topics
+# wikidata  institution that holds artifacts and other objects of scientific, artistic, cultural, hi
+# generator museums
+# wiki also ausstellung, galerie, institution, museum, stiftung
+singular = Museum
+plural   = Museums
+
+[shop=confectionery]
+candidate = confectionery store
+# models failed to name it: 80%
+# in the frozen extract: 715 features
+# osm       A shop selling sweets and candies.
+# wikidata  shop selling sweets
+# generator confectioneries
+# wiki also bonbons, confiserie, konfekt, bakery, confectionery
+singular = Confectionery store
+plural   = Confectionery stores
+
+[leisure=pitch]
+candidate = association football pitch
+# models failed to name it: 79%
+# in the frozen extract: 3558 features
+# osm       An area designed for practising sport, normally designated with appropriate markings.
+# wikidata  rectangular area where association football is played
+# look      Wikidata says association football; the OSM tag is any sport.
+# generator pitches
+# wiki also reitplatz, spielfeld, sportfeld, sportplatz, tennisplatz
+singular = Sports pitch
+plural   = Sports pitches
+
+[office=courier]
+candidate = courier service
+# models failed to name it: 78%
+# in the frozen extract: 67 features
+# osm       A courier delivery service, which is neither a post office nor a national post.
+# wikidata  delivery of material on behalf of third parties
+# generator couriers
+# wiki also bike messenger, carrier, courier, delivery, delivery service
+singular = Courier service
+plural   = Courier services
+
+[shop=butcher]
+candidate = butcher shop
+# models failed to name it: 78%
+# in the frozen extract: 211 features
+# osm       A shop selling meat or meat products.
+# wikidata  store where meat is sold
+# generator butchers
+# wiki also fleischhacker, fleischhauer, metzger, schlachter, butcher
+singular = Butcher shop
+plural   = Butcher shops
+
+[shop=pastry]
+candidate = (Wikidata has no item with P1282 for this tag)
+# models failed to name it: 75%
+# in the frozen extract: 197 features
+# osm       A shop where sweet bakery products are sold.
+# generator pastries
+# wiki also bolos, bonbons, cakes, cookies, pastel
+singular = Pastry shop
+plural   = Pastry shops
+
+[office=estate_agent]
+candidate = real estate agent
+# models failed to name it: 75%
+# in the frozen extract: 1519 features
+# osm       A place where you can rent or buy a house.
+# wikidata  person who acts as an intermediary between sellers and buyers of real estate/real proper
+# generator estate agents
+# wiki also agencia inmobiliaria, agent immobilier, inmobiliaria
+singular = Real estate agent
+plural   = Real estate agents
+
+[shop=video_games]
+candidate = video game store
+# models failed to name it: 73%
+# in the frozen extract: 21 features
+# osm       Shop selling video games.
+# wikidata  store that sells video games
+# generator video gameses
+singular = Video game store
+plural   = Video game stores
+
+[leisure=garden]
+candidate = garden
+# models failed to name it: 68%
+# in the frozen extract: 1157 features
+# osm       A place where flowers and other plants are grown in a decorative and structured manner o
+# wikidata  planned space set aside for the display, cultivation and enjoyment of plants
+# generator gardens
+# wiki also garten, gartenanlage, garden, giardini, giardino botanico
+singular = Garden
+plural   = Gardens
+
+[amenity=parcel_locker]
+candidate = parcel locker
+# models failed to name it: 67%
+# in the frozen extract: 87 features
+# osm       Machine for picking up and sending parcels.
+# wikidata  self-service collection service for parcels
+# generator parcel lockers
+# wiki also automat paczkowy, paczkomat
+singular = Parcel locker
+plural   = Parcel lockers
+
+[shop=florist]
+candidate = flower shop
+# models failed to name it: 65%
+# in the frozen extract: 547 features
+# osm       A shop selling bouquets of flowers.
+# wikidata  shop which sells flowers
+# generator florists
+# wiki also blumenhandlung, blumenladen, florist, fleuriste, fleurs
+singular = Flower shop
+plural   = Flower shops
+
+[shop=electronics]
+candidate = consumer electronics store
+# models failed to name it: 63%
+# in the frozen extract: 354 features
+# osm       A shop selling consumer electronics such as TVs, radios and fridges.
+# wikidata  store that specializes in selling consumer electronics
+# generator electronicses
+# wiki also elektrofachmarkt, elektronikfachmarkt, electronics store
+singular = Consumer electronics store
+plural   = Consumer electronics stores
+
+[shop=shoes]
+candidate = shoe store
+# models failed to name it: 57%
+# in the frozen extract: 342 features
+# osm       A shop selling shoes
+# wikidata  business that sells shoes
+# generator shoeses
+# wiki also schuhladen, schuhverkauf, boutique de chaussures, magasin de chaussures, shoe shop
+singular = Shoe store
+plural   = Shoe stores
+
+[amenity=hospital]
+candidate = hospital
+# models failed to name it: 33%
+# in the frozen extract: 388 features
+# osm       A hospital providing in-patient medical treatment.
+# wikidata  health care facility
+# generator hospitals
+# wiki also hospital, ipo, klinik, klinikum, krankenhaus
+singular = Hospital
+plural   = Hospitals
+
+[amenity=college]
+candidate = college
+# models failed to name it: 26%
+# in the frozen extract: 204 features
+# osm       A place for further education, a post-secondary education institution which is not a Uni
+# wikidata  educational institution, varying in level from country to country
+# look      the OSM tag is further education, not a US college.
+# generator colleges
+# wiki also vhs, volkshochschule, college, faculdade, further education
+singular = College
+plural   = Colleges
+
+[amenity=parking]
+candidate = parking area
+# models failed to name it: 15%
+# in the frozen extract: 23797 features
+# osm       A place for parking cars.
+# wikidata  cleared area that is intended for parking vehicles
+# look      a car park, in British English.
+# generator parkings
+# wiki also car park, car parking, estacionamento, estacionar, long-stay parking
+singular = Parking area
+plural   = Parking areas
+
+[amenity=atm]
+candidate = automated teller machine
+# models failed to name it: 7%
+# in the frozen extract: 737 features
+# osm       A device that provides the clients of a financial institution with access to financial t
+# wikidata  electronic telecommunications device used to perform financial transactions
+# look      correct, but people say ATM.
+# generator atms
+# wiki also atm, bankautomat, bankomat, geldausgabeautomat, geldautomat
+singular = Automated teller machine
+plural   = Automated teller machines
+
+[amenity=shower]
+candidate = shower
+# models failed to name it: 6%
+# in the frozen extract: 343 features
+# osm       Public showers, where people can bathe under water sprays
+# wikidata  place in which a person bathes under a spray of water
+# look      'shower' also names the fixture in a bathroom.
+# generator showers
+# wiki also bains-douches, chuveiro, douche, douches municipales, ducha
+singular = Shower
+plural   = Showers
