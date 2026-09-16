@@ -19,7 +19,7 @@ size_categories:
 # osm-tokyo23-questions
 
 Questions a person would ask about the twenty-three special wards of Tokyo,
-written to be answered from OpenStreetMap. 131 of them, in twenty kinds.
+written to be answered from OpenStreetMap. 215 of them, in twenty kinds.
 
 **No answers.** The set is questions and nothing else. Answers belong to a
 particular extract on a particular day, and a question carrying its own answer
@@ -74,12 +74,12 @@ question exactly, which is how two mistakes were caught while building it.
 
 | | | |
 |---|---|---|
-| range_count 9 | distance 9 | attribute_lookup 9 |
-| nearest_neighbor 11 | multi_criteria_filter 8 | bearing 7 |
-| multi_criteria_rank 7 | nearest_brand_compare 7 | radius_sensitivity 7 |
-| area_compare 6 | area_rank 6 | containment_count 6 |
-| containment_rank 6 | existence 6 | length_total 6 |
-| name_count 6 | neighbour_count_rank 6 | radius_sensitivity_compare 6 |
+| nearest_neighbor 16 | attribute_lookup 14 | distance 14 |
+| range_count 14 | multi_criteria_filter 13 | bearing 12 |
+| multi_criteria_rank 12 | nearest_brand_compare 12 | radius_sensitivity 12 |
+| area_compare 11 | area_rank 11 | containment_count 11 |
+| containment_rank 11 | existence 11 | radius_sensitivity_compare 11 |
+| neighbour_count_rank 11 | length_total 9 | name_count 7 |
 | distance_definition_sensitivity 2 | anchor_sensitivity 1 | |
 
 The last two exist only among the written questions. They are not shapes of
@@ -100,13 +100,24 @@ Several types are about that kind of trouble rather than around it.
 
 ## Where the questions come from
 
-41 were written as sentences. 90 were filled from 38 templates and a list of
+41 were written as sentences. 174 were filled from 38 templates and a list of
 curated values, and every one of them was asked of the data first: a question
 whose answer is empty, or whose ranking has one candidate, or whose two radii
-give the same count, is not in the set. `provenance.yaml` has the detail and
+give the same count, is not in the set.
+
+The second 84 of those were added on 2026-09-16 with a vocabulary chosen for
+where models are weak rather than for what comes to mind first. The nine
+categories this set began with are cafe, restaurant, hotel, park, church,
+cinema, bar, nightclub and convenience store, and three language models
+writing SQL name those tags correctly almost every time. Twenty tags were
+added ranked the other way, by how often those models failed to name them:
+shop=car_repair at 86%, shop=bicycle at 85%, shop=confectionery at 80%,
+office=estate_agent at 75%, down to amenity=parking at 15%. The boundary
+between `shop` and `amenity` and `craft` and `office` is where they fall
+off. `provenance.yaml` has the detail and
 the ADRs in the repository have the reasoning.
 
-The values are real: 62 places, 23 brands, 23 wards, 18 categories, 11 radii,
+The values are real: 62 places, 23 brands, 23 wards, 58 categories, 11 radii,
 8 operators, 7 station names. Each carries what it is in OpenStreetMap, which
 is what lets a filling be rejected before anything is asked. "Shibuya Station
 operated by Tokyo Metro" is possible and "JR Shibuya Station operated by Tokyo

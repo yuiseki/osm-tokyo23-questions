@@ -36,19 +36,33 @@ EXCLUDE_PLACES = {"Sapporo Station"}
 
 
 def existing():
-    """What the author already wrote, so the five are five new ones."""
+    """Every question already in the set, so a new one is new.
+
+    Both directories, not just the originals. This used to read only
+    data/originals/, which was right when data/questions/ was rewritten from
+    scratch on every run and could not contain anything to collide with. It is
+    appended to now, so a filling already sitting there has to be excluded or
+    the same question is written twice under two numbers.
+    """
     out = set()
-    base = os.path.join(BASE, "data/originals/tokyo")
-    for d in sorted(os.listdir(base)):
-        p = os.path.join(base, d)
-        t = os.path.join(p, "_template")
-        if not os.path.exists(t):
+    for rel in ("data/originals/tokyo", "data/questions/tokyo"):
+        base = os.path.join(BASE, rel)
+        if not os.path.isdir(base):
             continue
-        tpl = open(t).read().strip()
-        vals = {}
-        for slot in re.findall(r"\{(\w+)\}", tpl):
-            vals[slot] = open(os.path.join(p, slot)).read().strip()
-        out.add((tpl, tuple(sorted(vals.items()))))
+        for d in sorted(os.listdir(base)):
+            p = os.path.join(base, d)
+            t = os.path.join(p, "_template")
+            if not os.path.exists(t):
+                continue
+            tpl = open(t).read().strip()
+            vals = {}
+            for slot in re.findall(r"\{(\w+)\}", tpl):
+                f = os.path.join(p, slot)
+                if not os.path.exists(f):
+                    break
+                vals[slot] = open(f).read().strip()
+            else:
+                out.add((tpl, tuple(sorted(vals.items()))))
     return out
 
 
@@ -82,14 +96,15 @@ def write_questions(types, picked):
     a question has one is why it is here, not something the set records.
     """
     root = os.path.join(BASE, "data/questions/tokyo")
-    if os.path.isdir(root):
-        for d in sorted(os.listdir(root)):
-            p = os.path.join(root, d)
-            for f in os.listdir(p):
-                os.remove(os.path.join(p, f))
-            os.rmdir(p)
     os.makedirs(root, exist_ok=True)
-    n = 0
+    # Append. This used to delete every directory here and number the new set
+    # from 0001, which was harmless while nothing outside referred to a
+    # number. Both this set and the answers computed from it are published
+    # now, and filled/tokyo/0001 names a particular question to anyone who
+    # has it, so the numbers do not move. ADR 0006 wanted one sequence and
+    # this is what continuing it means.
+    n = max((int(d) for d in os.listdir(root) if d.isdigit()), default=0)
+    first = n + 1
     for typ in types:
         for r in picked[typ]:
             n += 1
@@ -106,7 +121,8 @@ def write_questions(types, picked):
                 f"checked={CHECKED}"]))
             for slot, value in sorted(r["values"].items()):
                 write(slot, value)
-    print(f"wrote {n} questions under {root}")
+    print(f"wrote {n - first + 1} questions as {first:04d}..{n:04d} "
+          f"under {root}")
 
 
 def main():

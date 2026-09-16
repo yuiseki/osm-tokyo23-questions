@@ -1,0 +1,3 @@
+source=filled from a template and the seeds
+template=type_distance/0001.txt
+checked=tokyo23-260831.osm.pbf md5 44a4ba2182379c147f20a27ad1b513ef, osm_base 2026-08-30T23:50:59Z

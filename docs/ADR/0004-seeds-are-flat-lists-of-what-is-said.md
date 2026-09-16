@@ -311,3 +311,25 @@ That the questions these fill have answers. The tags were taken from questions
 that are answerable in `tokyo23-260831.osm.pbf`, so each tag has features
 within reach of some anchor, and that is not the same as every filling being
 non-empty. ADR 0007 is the rule and `scripts/check_nonzero.py` is the check.
+
+## Added 2026-09-16, what the new categories produced
+
+84 questions, numbered 0091 to 0174, five per type where five survived. 34 of
+them use one of the new words, and 28 of the 40 new values appear at least
+once; the draw is random and `hobby shop` and `parcel locker` happened not to
+come up in either form.
+
+`scripts/count_combinations.py` was not used to get there and should not be.
+Enumerating was already 111 million products with eighteen categories and
+twenty-five minutes; with fifty-eight it is billions, and an hour of it
+produced nothing. `check_nonzero.py` says so in its own comments and draws
+candidates at random instead, which is what `select_questions.py` does.
+
+`select_questions.py` used to delete every directory under
+`data/questions/tokyo` and number a fresh set from 0001. That was harmless
+while nothing outside referred to a number. It appends now, because
+`filled/tokyo/0001` names a particular question to anyone holding the
+published set or the answers computed from it. Its duplicate check was
+widened at the same time: it read only `data/originals/` before, which was
+sufficient for a directory it was about to erase and is not sufficient for one
+it adds to.

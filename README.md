@@ -1,7 +1,7 @@
 # osm-tokyo23-questions
 
 Questions about the twenty-three special wards of Tokyo, written to be
-answered from OpenStreetMap. 131 of them, in twenty kinds, with no answers.
+answered from OpenStreetMap. 215 of them, in twenty kinds, with no answers.
 
 The dataset is on the Hub. This repository is what it is made of.
 
@@ -16,10 +16,12 @@ and every value that fills a slot in one, was written or chosen by a person.
 ## Layout
 
     data/originals/tokyo/NNNN/   41 sentences as a person wrote them
-    data/questions/tokyo/NNNN/   90 templates with curated values put in
+    data/questions/tokyo/NNNN/   174 templates with curated values put in
     data/templates/type_*/       38 templates, filed by what they ask for
     data/seeds/<kind>/<value>    what may fill a slot, and what it is in OSM
-    data/questions.jsonl         all 131, one object per line, built not edited
+    data/synthetic/NOUNS.txt     which noun was chosen for which tag, and why
+                                 three tags were left without one
+    data/questions.jsonl         all 215, one object per line, built not edited
 
 A question is a directory and a slot is a file, so a change to one shows up in
 a diff as itself. Filling a template with its own slot files reproduces its
@@ -54,6 +56,7 @@ The decisions, and what went wrong before each one, are in `docs/ADR/`.
 | [0006](docs/ADR/0006-the-questions-are-numbered-in-one-sequence.md) | The questions are numbered in one sequence |
 | [0007](docs/ADR/0007-a-filling-is-checked-before-it-is-kept.md) | A filling is checked twice, by tag and by query |
 | [0008](docs/ADR/0008-the-filled-questions-live-apart-from-the-originals.md) | The filled questions live apart from the originals |
+| [0009](docs/ADR/0009-some-tags-no-noun-names.md) | Some tags have no noun, and those questions are not written |
 
 `data/README.md` is the dataset card, and `data/provenance.yaml` says who wrote
 what and what was checked against which data.
