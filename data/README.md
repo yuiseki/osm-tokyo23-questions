@@ -123,6 +123,37 @@ is what lets a filling be rejected before anything is asked. "Shibuya Station
 operated by Tokyo Metro" is possible and "JR Shibuya Station operated by Tokyo
 Metro" is not.
 
+## The tags, separately
+
+`tag_hints.jsonl` beside this file says which OpenStreetMap tags each question
+turns on, keyed by `id`:
+
+```json
+{"id": "written/tokyo/0001",
+ "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q37158",
+                   "cuisine=coffee_shop", "operator:en=East Japan Railway",
+                   "railway=station"]}
+```
+
+215 questions, 123 distinct tags. Not an answer: an answer belongs to a
+particular extract on a particular day, and a tag is what the thing is called
+in OpenStreetMap whichever day it is. Not new either; every one of them is in
+the seeds beside the value that names it.
+
+It is a separate file rather than a column because naming the tag is the step
+that is hard. Asked to write SQL for 1,206 questions of this shape with no
+examples, Qwen2.5-Coder-3B chose the right value under the wrong key for a
+quarter of the categories it named, and Qwen3.6-35B-A3B for a fifth: `shop`
+written as `amenity`, `amenity=pharmacy` as `healthcare=pharmacy`,
+`shop=hairdresser` as `craft=hairdresser`. A hint in the same row as the
+question is handed to whatever is being measured on it. Join it on `id` when
+that is what is wanted.
+
+Greedy, because it is a hint and not a specification. The category, the brand
+and the class it belongs to, the operator, a ward's boundary tags and the name
+OpenStreetMap gives it, the kind of thing a place is, and the key an attribute
+question reads, which is a key on its own because its value is the answer.
+
 ## Checked against
 
 [yuiseki/osm-tokyo23-src-2026-08](https://huggingface.co/datasets/yuiseki/osm-tokyo23-src-2026-08)

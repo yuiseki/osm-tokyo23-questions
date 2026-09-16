@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Push the questions and their card to the Hugging Face Hub.
 
-What goes up is one file of questions and the three files that explain it.
+What goes up is one file of questions, the three files that explain it, and
+the tags each question turns on.
 What stays in git is everything the questions are made of: the per-question
 directories, the templates, the seeds and their attributes. Someone using the
 set wants the questions; someone changing it wants the directories, and those
@@ -32,8 +33,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--questions", default=path("data/questions.jsonl"))
     ap.add_argument("--card", default=path("data/README.md"))
+    # tag_hints.jsonl goes up as a file rather than as part of the table.
+    # Naming the tag is the step models fail at, so a hint in the same row as
+    # the question would be handed to anything measured on it. Joined on `id`
+    # by whoever wants it.
     ap.add_argument("--extra", nargs="*", default=[path("data/LICENSE"),
-                                                  path("data/provenance.yaml")])
+                                                  path("data/provenance.yaml"),
+                                                  path("data/tag_hints.jsonl")])
     ap.add_argument("--repo", default=REPO)
     ap.add_argument("--push", action="store_true", help="actually upload")
     ap.add_argument("--skip-check", action="store_true",
@@ -48,6 +54,11 @@ def main():
         if r.returncode != 0:
             raise SystemExit("data/questions.jsonl is out of date. "
                              "Run scripts/build_jsonl.py")
+        r = subprocess.run([sys.executable, path("scripts/build_tag_hints.py"),
+                            "--check"])
+        if r.returncode != 0:
+            raise SystemExit("data/tag_hints.jsonl is out of date. "
+                             "Run scripts/build_tag_hints.py")
 
     import datasets
 

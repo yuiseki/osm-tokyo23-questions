@@ -1,0 +1,8 @@
+# The tags this question turns on, for the two questions that carry no
+# template and therefore no slots to read them from. Nothing is decided here:
+# leisure=park is written in the sentence, in the parenthesis the author put
+# there to say which Yoyogi Park was meant, and the station and its operator
+# are named in the same words the seeds use.
+railway=station
+operator:en=East Japan Railway
+leisure=park

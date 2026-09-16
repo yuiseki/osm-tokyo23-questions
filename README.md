@@ -10,7 +10,9 @@ The dataset is on the Hub. This repository is what it is made of.
 
 Two rules shape everything here. **No answers**: an answer belongs to a
 particular extract on a particular day, so what is recorded is which data each
-question was checked against. **No prose written by a model**: every sentence,
+question was checked against. The tags a question turns on are not an answer
+by that test and are in `data/tag_hints.jsonl`, in their own file because
+naming the tag is the step models fail at and a question should not carry it. **No prose written by a model**: every sentence,
 and every value that fills a slot in one, was written or chosen by a person.
 
 ## Layout
@@ -22,6 +24,8 @@ and every value that fills a slot in one, was written or chosen by a person.
     data/synthetic/NOUNS.txt     which noun was chosen for which tag, and why
                                  three tags were left without one
     data/questions.jsonl         all 215, one object per line, built not edited
+    data/tag_hints.jsonl         which OSM tags each question turns on, keyed
+                                 by id, kept out of the questions on purpose
 
 A question is a directory and a slot is a file, so a change to one shows up in
 a diff as itself. Filling a template with its own slot files reproduces its
@@ -37,6 +41,7 @@ question exactly, which is checkable and is how two mistakes were caught.
     check_nonzero.py           which of them have something to find
     select_questions.py        choose five per type, spread across values
     build_jsonl.py             data/questions.jsonl, with --check
+    build_tag_hints.py         data/tag_hints.jsonl, with --check
     publish.py                 push to the Hub, with a dry run by default
 
 They ask an Overpass server, `OVERPASS_URL`, holding the extract above. Set

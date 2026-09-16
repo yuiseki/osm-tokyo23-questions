@@ -29,6 +29,11 @@ RENAME = {"_question": "question", "_template": "template", "_source": "source"}
 # the key=value shape becomes fields of its own.
 SOURCE_KEYS = {"source": "source", "template": "template_file",
                "checked": "checked"}
+# `_tags` is read by build_tag_hints.py and does not belong in a question.
+# Naming the tag is the step this set exists to ask about, and a question
+# carrying its own tags would answer it. It lives in data/tag_hints.jsonl,
+# joined on id by anyone who wants it.
+SKIP = {"_tags"}
 
 
 def read(path):
@@ -45,6 +50,8 @@ def rows():
             row = {"id": f"{origin}/tokyo/{d}", "origin": origin,
                    "region": "tokyo"}
             for f in sorted(os.listdir(p)):
+                if f in SKIP:
+                    continue
                 value = read(os.path.join(p, f))
                 if f == "_source" and "=" in value.split("\n")[0]:
                     for line in value.split("\n"):

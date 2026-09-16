@@ -1,0 +1,215 @@
+{"id": "written/tokyo/0001", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q37158", "cuisine=coffee_shop", "operator:en=East Japan Railway", "railway=station"]}
+{"id": "written/tokyo/0002", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q37158", "cuisine=coffee_shop", "operator:en=East Japan Railway", "railway=station"]}
+{"id": "written/tokyo/0003", "osm_tag_hints": ["operator:en=East Japan Railway", "railway=station", "tourism=hotel"]}
+{"id": "written/tokyo/0004", "osm_tag_hints": ["amenity=cafe", "shop=mall"]}
+{"id": "written/tokyo/0005", "osm_tag_hints": ["highway=pedestrian", "highway=residential", "highway=unclassified"]}
+{"id": "written/tokyo/0006", "osm_tag_hints": ["admin_level=7", "amenity=cinema", "boundary=administrative", "name:en=Shibuya"]}
+{"id": "written/tokyo/0007", "osm_tag_hints": ["admin_level=7", "amenity=cafe", "boundary=administrative", "name:en=Shibuya", "tourism=hotel"]}
+{"id": "written/tokyo/0008", "osm_tag_hints": ["amenity=restaurant", "building=commercial"]}
+{"id": "written/tokyo/0009", "osm_tag_hints": ["building=commercial", "shop=mall"]}
+{"id": "written/tokyo/0010", "osm_tag_hints": ["amenity=theatre", "operator:en=East Japan Railway", "railway=station"]}
+{"id": "written/tokyo/0011", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q177054", "brand:wikidata=Q38076", "cuisine=burger", "operator:en=East Japan Railway", "railway=station"]}
+{"id": "written/tokyo/0012", "osm_tag_hints": ["amenity=cafe", "operator:en=East Japan Railway", "railway=station", "tourism=hotel"]}
+{"id": "written/tokyo/0013", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q37158", "cuisine=coffee_shop", "operator:en=East Japan Railway", "railway=station"]}
+{"id": "written/tokyo/0014", "osm_tag_hints": ["building:levels", "building=commercial"]}
+{"id": "written/tokyo/0015", "osm_tag_hints": ["start_date", "tourism=artwork"]}
+{"id": "written/tokyo/0016", "osm_tag_hints": ["building=retail", "internet_access:fee"]}
+{"id": "written/tokyo/0017", "osm_tag_hints": ["opening_hours", "shop=mall"]}
+{"id": "written/tokyo/0018", "osm_tag_hints": ["amenity=cafe", "operator:en=East Japan Railway", "railway=station"]}
+{"id": "written/tokyo/0019", "osm_tag_hints": ["amenity=place_of_worship", "operator:en=East Japan Railway", "railway=station", "religion=christian", "tourism=hotel"]}
+{"id": "written/tokyo/0020", "osm_tag_hints": ["admin_level=7", "amenity=bar", "amenity=nightclub", "boundary=administrative", "name:en=Shibuya", "tourism=hotel"]}
+{"id": "written/tokyo/0021", "osm_tag_hints": ["amenity=place_of_worship", "railway=station", "religion=shinto"]}
+{"id": "written/tokyo/0022", "osm_tag_hints": ["leisure=park", "operator:en=East Japan Railway", "railway=station"]}
+{"id": "written/tokyo/0023", "osm_tag_hints": ["leisure=park", "operator:en=East Japan Railway", "railway=station"]}
+{"id": "written/tokyo/0024", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q37158", "cuisine=coffee_shop", "tourism=hotel"]}
+{"id": "written/tokyo/0025", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q37158", "cuisine=coffee_shop", "tourism=hotel"]}
+{"id": "written/tokyo/0026", "osm_tag_hints": ["amenity=place_of_worship", "religion=shinto", "tourism=hotel"]}
+{"id": "written/tokyo/0027", "osm_tag_hints": ["tourism=hotel"]}
+{"id": "written/tokyo/0028", "osm_tag_hints": ["amenity=theatre", "tourism=hotel"]}
+{"id": "written/tokyo/0029", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q177054", "brand:wikidata=Q38076", "cuisine=burger", "tourism=hotel"]}
+{"id": "written/tokyo/0030", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q37158", "cuisine=coffee_shop", "tourism=hotel"]}
+{"id": "written/tokyo/0031", "osm_tag_hints": ["landuse=cemetery", "tourism=hotel"]}
+{"id": "written/tokyo/0032", "osm_tag_hints": ["landuse=cemetery", "tourism=hotel"]}
+{"id": "written/tokyo/0033", "osm_tag_hints": ["amenity=cafe", "landuse=residential", "tourism=hotel"]}
+{"id": "written/tokyo/0034", "osm_tag_hints": ["amenity=place_of_worship", "landuse=residential", "religion=christian", "tourism=hotel"]}
+{"id": "written/tokyo/0035", "osm_tag_hints": ["railway=station", "shop=convenience"]}
+{"id": "written/tokyo/0036", "osm_tag_hints": ["amenity=cafe", "railway=station"]}
+{"id": "written/tokyo/0037", "osm_tag_hints": ["leisure=park", "shop=mall"]}
+{"id": "written/tokyo/0038", "osm_tag_hints": ["amenity=cinema", "railway=station"]}
+{"id": "written/tokyo/0039", "osm_tag_hints": ["leisure=park"]}
+{"id": "written/tokyo/0040", "osm_tag_hints": ["amenity=cafe"]}
+{"id": "written/tokyo/0041", "osm_tag_hints": ["railway=station"]}
+{"id": "filled/tokyo/0001", "osm_tag_hints": ["building=commercial", "building=office"]}
+{"id": "filled/tokyo/0002", "osm_tag_hints": ["building=retail", "building=yes"]}
+{"id": "filled/tokyo/0003", "osm_tag_hints": ["building=commercial", "building=yes", "tourism=hotel"]}
+{"id": "filled/tokyo/0004", "osm_tag_hints": ["building=commercial", "building=office"]}
+{"id": "filled/tokyo/0005", "osm_tag_hints": ["building=college", "building=yes", "shop=mall"]}
+{"id": "filled/tokyo/0006", "osm_tag_hints": ["amenity=nightclub"]}
+{"id": "filled/tokyo/0007", "osm_tag_hints": ["amenity=bar"]}
+{"id": "filled/tokyo/0008", "osm_tag_hints": ["amenity=place_of_worship", "religion=shinto"]}
+{"id": "filled/tokyo/0009", "osm_tag_hints": ["amenity=cinema"]}
+{"id": "filled/tokyo/0010", "osm_tag_hints": ["amenity=cinema"]}
+{"id": "filled/tokyo/0011", "osm_tag_hints": ["building:levels", "shop=mall"]}
+{"id": "filled/tokyo/0012", "osm_tag_hints": ["amenity=community_centre", "building:levels"]}
+{"id": "filled/tokyo/0013", "osm_tag_hints": ["building:levels", "building=yes", "shop=mall"]}
+{"id": "filled/tokyo/0014", "osm_tag_hints": ["building:levels", "building=office"]}
+{"id": "filled/tokyo/0015", "osm_tag_hints": ["building:levels", "shop=mall"]}
+{"id": "filled/tokyo/0016", "osm_tag_hints": ["highway=tertiary", "highway=tertiary_link", "railway=station"]}
+{"id": "filled/tokyo/0017", "osm_tag_hints": ["leisure=park", "railway=station", "tourism=zoo"]}
+{"id": "filled/tokyo/0018", "osm_tag_hints": ["highway=secondary", "railway=station"]}
+{"id": "filled/tokyo/0019", "osm_tag_hints": ["amenity=college", "amenity=hospital", "amenity=library", "amenity=university", "building=retail", "building=university", "landuse=residential", "tourism=information", "tourism=museum"]}
+{"id": "filled/tokyo/0020", "osm_tag_hints": ["amenity=place_of_worship", "railway=station"]}
+{"id": "filled/tokyo/0021", "osm_tag_hints": ["amenity=cinema", "building=retail"]}
+{"id": "filled/tokyo/0022", "osm_tag_hints": ["building=office", "tourism=hotel"]}
+{"id": "filled/tokyo/0023", "osm_tag_hints": ["leisure=park", "shop=convenience", "tourism=zoo"]}
+{"id": "filled/tokyo/0024", "osm_tag_hints": ["amenity=bar", "tourism=hotel"]}
+{"id": "filled/tokyo/0025", "osm_tag_hints": ["amenity=cafe", "leisure=park"]}
+{"id": "filled/tokyo/0026", "osm_tag_hints": ["admin_level=7", "amenity=cinema", "boundary=administrative", "name:en=Chiyoda"]}
+{"id": "filled/tokyo/0027", "osm_tag_hints": ["admin_level=7", "amenity=place_of_worship", "boundary=administrative", "name:en=Itabashi", "religion=shinto"]}
+{"id": "filled/tokyo/0028", "osm_tag_hints": ["admin_level=7", "boundary=administrative", "name:en=Chūō", "tourism=hotel"]}
+{"id": "filled/tokyo/0029", "osm_tag_hints": ["admin_level=7", "amenity=cafe", "boundary=administrative", "name:en=Koto"]}
+{"id": "filled/tokyo/0030", "osm_tag_hints": ["admin_level=7", "amenity=place_of_worship", "boundary=administrative", "name:en=Shinjuku", "religion=christian"]}
+{"id": "filled/tokyo/0031", "osm_tag_hints": ["tourism=hotel"]}
+{"id": "filled/tokyo/0032", "osm_tag_hints": ["building=college", "railway=station"]}
+{"id": "filled/tokyo/0033", "osm_tag_hints": ["tourism=attraction", "tourism=hotel"]}
+{"id": "filled/tokyo/0034", "osm_tag_hints": ["amenity=place_of_worship", "landuse=cemetery"]}
+{"id": "filled/tokyo/0035", "osm_tag_hints": ["building=retail", "highway=secondary", "highway=tertiary", "highway=trunk", "highway=trunk_link"]}
+{"id": "filled/tokyo/0036", "osm_tag_hints": ["amenity=place_of_worship", "leisure=park", "religion=christian"]}
+{"id": "filled/tokyo/0037", "osm_tag_hints": ["leisure=park", "shop=mall"]}
+{"id": "filled/tokyo/0038", "osm_tag_hints": ["tourism=artwork", "tourism=hotel"]}
+{"id": "filled/tokyo/0039", "osm_tag_hints": ["amenity=cinema", "highway=secondary"]}
+{"id": "filled/tokyo/0040", "osm_tag_hints": ["amenity=place_of_worship", "religion=christian", "tourism=hotel"]}
+{"id": "filled/tokyo/0041", "osm_tag_hints": ["highway=secondary"]}
+{"id": "filled/tokyo/0042", "osm_tag_hints": ["highway=secondary"]}
+{"id": "filled/tokyo/0043", "osm_tag_hints": ["highway=secondary", "highway=tertiary", "highway=trunk", "highway=trunk_link"]}
+{"id": "filled/tokyo/0044", "osm_tag_hints": ["highway=primary", "highway=primary_link", "highway=secondary", "highway=trunk"]}
+{"id": "filled/tokyo/0045", "osm_tag_hints": ["highway=secondary"]}
+{"id": "filled/tokyo/0046", "osm_tag_hints": ["amenity=cinema", "building=retail", "tourism=hotel"]}
+{"id": "filled/tokyo/0047", "osm_tag_hints": ["amenity=cafe", "amenity=place_of_worship", "highway=secondary", "religion=christian"]}
+{"id": "filled/tokyo/0048", "osm_tag_hints": ["amenity=place_of_worship", "leisure=park", "religion=shinto"]}
+{"id": "filled/tokyo/0049", "osm_tag_hints": ["amenity=cinema", "leisure=park"]}
+{"id": "filled/tokyo/0050", "osm_tag_hints": ["amenity=cafe", "amenity=place_of_worship", "leisure=park", "religion=christian"]}
+{"id": "filled/tokyo/0051", "osm_tag_hints": ["amenity=place_of_worship", "leisure=park", "religion=shinto", "tourism=hotel"]}
+{"id": "filled/tokyo/0052", "osm_tag_hints": ["amenity=bar", "railway=station", "shop=convenience"]}
+{"id": "filled/tokyo/0053", "osm_tag_hints": ["amenity=cafe", "amenity=place_of_worship", "building=retail", "religion=christian"]}
+{"id": "filled/tokyo/0054", "osm_tag_hints": ["amenity=cinema", "amenity=restaurant", "railway=station"]}
+{"id": "filled/tokyo/0055", "osm_tag_hints": ["amenity=cinema", "amenity=place_of_worship", "amenity=university", "religion=christian"]}
+{"id": "filled/tokyo/0056", "osm_tag_hints": ["railway=station"]}
+{"id": "filled/tokyo/0057", "osm_tag_hints": ["railway=station"]}
+{"id": "filled/tokyo/0058", "osm_tag_hints": ["railway=station"]}
+{"id": "filled/tokyo/0059", "osm_tag_hints": ["railway=station"]}
+{"id": "filled/tokyo/0060", "osm_tag_hints": ["railway=station"]}
+{"id": "filled/tokyo/0061", "osm_tag_hints": ["amenity=bank", "brand:wikidata=Q2882956", "brand:wikidata=Q988284", "highway=secondary"]}
+{"id": "filled/tokyo/0062", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q11326050", "brand:wikidata=Q848773", "building=commercial", "cuisine=beef_bowl", "cuisine=noodle"]}
+{"id": "filled/tokyo/0063", "osm_tag_hints": ["amenity=fast_food", "amenity=place_of_worship", "brand:wikidata=Q177054", "brand:wikidata=Q38076", "cuisine=burger"]}
+{"id": "filled/tokyo/0064", "osm_tag_hints": ["brand:wikidata=Q1557223", "brand:wikidata=Q259340", "brand=7-ELEVEN", "brand=LAWSON", "railway=station", "shop=convenience"]}
+{"id": "filled/tokyo/0065", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q11305988", "brand:wikidata=Q11322732", "brand=DOUTOR", "brand=ST.MARC CAFÉ", "building=office", "cuisine=coffee_shop"]}
+{"id": "filled/tokyo/0066", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q3541983", "building=commercial", "cuisine=coffee_shop"]}
+{"id": "filled/tokyo/0067", "osm_tag_hints": ["amenity=pub", "brand:wikidata=Q11675129", "tourism=hotel"]}
+{"id": "filled/tokyo/0068", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q38076", "cuisine=burger", "shop=mall"]}
+{"id": "filled/tokyo/0069", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q11326050", "cuisine=noodle", "highway=tertiary", "highway=tertiary_link"]}
+{"id": "filled/tokyo/0070", "osm_tag_hints": ["brand:wikidata=Q259340", "brand=7-ELEVEN", "shop=convenience", "tourism=hotel"]}
+{"id": "filled/tokyo/0071", "osm_tag_hints": ["admin_level=7", "amenity=cinema", "amenity=place_of_worship", "boundary=administrative", "name:en=Chiyoda", "religion=shinto"]}
+{"id": "filled/tokyo/0072", "osm_tag_hints": ["admin_level=7", "boundary=administrative", "leisure=park", "name:en=Shibuya", "tourism=hotel"]}
+{"id": "filled/tokyo/0073", "osm_tag_hints": ["admin_level=7", "amenity=cafe", "amenity=place_of_worship", "boundary=administrative", "name:en=Minato", "religion=christian"]}
+{"id": "filled/tokyo/0074", "osm_tag_hints": ["admin_level=7", "amenity=bar", "boundary=administrative", "leisure=park", "name:en=Kita"]}
+{"id": "filled/tokyo/0075", "osm_tag_hints": ["admin_level=7", "amenity=place_of_worship", "boundary=administrative", "name:en=Edogawa", "religion=christian", "tourism=hotel"]}
+{"id": "filled/tokyo/0076", "osm_tag_hints": ["brand:wikidata=Q853958", "brand=NTT docomo", "railway=station", "shop=mobile_phone"]}
+{"id": "filled/tokyo/0077", "osm_tag_hints": ["amenity=bank", "brand:wikidata=Q988284", "landuse=cemetery"]}
+{"id": "filled/tokyo/0078", "osm_tag_hints": ["brand:wikidata=Q26070", "brand=UNIQLO", "railway=station", "shop=clothes"]}
+{"id": "filled/tokyo/0079", "osm_tag_hints": ["amenity=cafe", "amenity=place_of_worship", "brand:wikidata=Q3541983", "cuisine=coffee_shop"]}
+{"id": "filled/tokyo/0080", "osm_tag_hints": ["brand:wikidata=Q11247682", "building=yes", "shop=convenience", "tourism=hotel"]}
+{"id": "filled/tokyo/0081", "osm_tag_hints": ["leisure=park", "operator:en=East Japan Railway Company", "railway=station"]}
+{"id": "filled/tokyo/0082", "osm_tag_hints": ["amenity=nightclub", "operator:en=Tokyo Metro", "railway=station"]}
+{"id": "filled/tokyo/0083", "osm_tag_hints": ["operator:en=Toei", "railway=station", "shop=convenience"]}
+{"id": "filled/tokyo/0084", "osm_tag_hints": ["amenity=place_of_worship", "operator:en=East Japan Railway Company", "railway=station", "religion=christian"]}
+{"id": "filled/tokyo/0085", "osm_tag_hints": ["operator:en=Toei", "railway=station", "tourism=hotel"]}
+{"id": "filled/tokyo/0086", "osm_tag_hints": ["amenity=bank", "brand:wikidata=Q2882956", "highway=secondary", "highway=tertiary", "highway=trunk", "highway=trunk_link"]}
+{"id": "filled/tokyo/0087", "osm_tag_hints": ["amenity=pharmacy", "brand:wikidata=Q8014776", "leisure=park", "tourism=zoo"]}
+{"id": "filled/tokyo/0088", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q6137375", "cuisine=beef_bowl", "leisure=park"]}
+{"id": "filled/tokyo/0089", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q3541983", "building=retail", "cuisine=coffee_shop"]}
+{"id": "filled/tokyo/0090", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q37158", "cuisine=coffee_shop", "highway=primary", "highway=primary_link", "highway=secondary", "highway=trunk"]}
+{"id": "filled/tokyo/0091", "osm_tag_hints": ["building=office"]}
+{"id": "filled/tokyo/0092", "osm_tag_hints": ["building=college", "building=commercial"]}
+{"id": "filled/tokyo/0093", "osm_tag_hints": ["building=commercial"]}
+{"id": "filled/tokyo/0094", "osm_tag_hints": ["building=yes", "shop=mall", "tourism=hotel"]}
+{"id": "filled/tokyo/0095", "osm_tag_hints": ["building=retail", "building=yes"]}
+{"id": "filled/tokyo/0096", "osm_tag_hints": ["amenity=college"]}
+{"id": "filled/tokyo/0097", "osm_tag_hints": ["shop=video_games"]}
+{"id": "filled/tokyo/0098", "osm_tag_hints": ["shop=confectionery"]}
+{"id": "filled/tokyo/0099", "osm_tag_hints": ["amenity=hospital"]}
+{"id": "filled/tokyo/0100", "osm_tag_hints": ["shop=electronics"]}
+{"id": "filled/tokyo/0101", "osm_tag_hints": ["building:levels", "building=yes"]}
+{"id": "filled/tokyo/0102", "osm_tag_hints": ["building:levels", "building=college"]}
+{"id": "filled/tokyo/0103", "osm_tag_hints": ["building:levels", "building=retail"]}
+{"id": "filled/tokyo/0104", "osm_tag_hints": ["building:levels", "building=office"]}
+{"id": "filled/tokyo/0105", "osm_tag_hints": ["building:levels", "tourism=hotel"]}
+{"id": "filled/tokyo/0106", "osm_tag_hints": ["amenity=place_of_worship", "building=commercial"]}
+{"id": "filled/tokyo/0107", "osm_tag_hints": ["amenity=university", "railway=station"]}
+{"id": "filled/tokyo/0108", "osm_tag_hints": ["amenity=place_of_worship", "landuse=cemetery"]}
+{"id": "filled/tokyo/0109", "osm_tag_hints": ["building=yes", "shop=mall"]}
+{"id": "filled/tokyo/0110", "osm_tag_hints": ["building=college", "railway=station"]}
+{"id": "filled/tokyo/0111", "osm_tag_hints": ["amenity=restaurant", "building=retail"]}
+{"id": "filled/tokyo/0112", "osm_tag_hints": ["leisure=garden", "leisure=park", "tourism=zoo"]}
+{"id": "filled/tokyo/0113", "osm_tag_hints": ["leisure=park", "shop=convenience"]}
+{"id": "filled/tokyo/0114", "osm_tag_hints": ["leisure=park", "tourism=museum"]}
+{"id": "filled/tokyo/0115", "osm_tag_hints": ["amenity=parking", "leisure=park"]}
+{"id": "filled/tokyo/0116", "osm_tag_hints": ["admin_level=7", "boundary=administrative", "name:en=Chiyoda", "shop=florist"]}
+{"id": "filled/tokyo/0117", "osm_tag_hints": ["admin_level=7", "boundary=administrative", "name:en=Chūō", "shop=shoes"]}
+{"id": "filled/tokyo/0118", "osm_tag_hints": ["admin_level=7", "boundary=administrative", "name:en=Setagaya", "office=government"]}
+{"id": "filled/tokyo/0119", "osm_tag_hints": ["admin_level=7", "boundary=administrative", "name:en=Edogawa", "shop=pastry"]}
+{"id": "filled/tokyo/0120", "osm_tag_hints": ["admin_level=7", "boundary=administrative", "name:en=Suginami", "tourism=museum"]}
+{"id": "filled/tokyo/0121", "osm_tag_hints": ["landuse=residential", "leisure=park"]}
+{"id": "filled/tokyo/0122", "osm_tag_hints": ["building=retail", "leisure=park"]}
+{"id": "filled/tokyo/0123", "osm_tag_hints": ["building=commercial", "highway=secondary", "highway=tertiary", "highway=trunk", "highway=trunk_link"]}
+{"id": "filled/tokyo/0124", "osm_tag_hints": ["highway=tertiary", "highway=tertiary_link", "railway=station"]}
+{"id": "filled/tokyo/0125", "osm_tag_hints": ["amenity=place_of_worship", "railway=station"]}
+{"id": "filled/tokyo/0126", "osm_tag_hints": ["amenity=place_of_worship", "railway=station", "religion=christian"]}
+{"id": "filled/tokyo/0127", "osm_tag_hints": ["building=office", "shop=bicycle"]}
+{"id": "filled/tokyo/0128", "osm_tag_hints": ["amenity=college", "amenity=hospital", "amenity=library", "amenity=university", "building=university", "landuse=residential", "tourism=information", "tourism=museum"]}
+{"id": "filled/tokyo/0129", "osm_tag_hints": ["building=office", "shop=florist"]}
+{"id": "filled/tokyo/0130", "osm_tag_hints": ["amenity=community_centre", "office=government"]}
+{"id": "filled/tokyo/0131", "osm_tag_hints": ["highway=secondary"]}
+{"id": "filled/tokyo/0132", "osm_tag_hints": ["highway=tertiary"]}
+{"id": "filled/tokyo/0133", "osm_tag_hints": ["highway=tertiary", "highway=tertiary_link"]}
+{"id": "filled/tokyo/0134", "osm_tag_hints": ["amenity=college", "amenity=community_centre", "shop=florist"]}
+{"id": "filled/tokyo/0135", "osm_tag_hints": ["amenity=parking", "office=courier", "railway=station"]}
+{"id": "filled/tokyo/0136", "osm_tag_hints": ["building=yes", "leisure=park", "shop=mall", "shop=video_games"]}
+{"id": "filled/tokyo/0137", "osm_tag_hints": ["amenity=cafe", "landuse=residential", "office=estate_agent"]}
+{"id": "filled/tokyo/0138", "osm_tag_hints": ["highway=tertiary", "highway=tertiary_link", "shop=bicycle", "shop=pastry"]}
+{"id": "filled/tokyo/0139", "osm_tag_hints": ["railway=station", "shop=car_repair", "shop=confectionery"]}
+{"id": "filled/tokyo/0140", "osm_tag_hints": ["building=retail", "office=estate_agent", "shop=shoes"]}
+{"id": "filled/tokyo/0141", "osm_tag_hints": ["amenity=place_of_worship", "amenity=restaurant", "amenity=university", "religion=christian"]}
+{"id": "filled/tokyo/0142", "osm_tag_hints": ["amenity=hospital", "tourism=hotel"]}
+{"id": "filled/tokyo/0143", "osm_tag_hints": ["building=yes", "leisure=park", "shop=convenience", "shop=mall"]}
+{"id": "filled/tokyo/0144", "osm_tag_hints": ["railway=station"]}
+{"id": "filled/tokyo/0145", "osm_tag_hints": ["amenity=bank", "brand:wikidata=Q2882956", "brand:wikidata=Q988284", "tourism=hotel"]}
+{"id": "filled/tokyo/0146", "osm_tag_hints": ["brand:wikidata=Q11247682", "brand:wikidata=Q1557223", "brand=LAWSON", "leisure=park", "shop=convenience"]}
+{"id": "filled/tokyo/0147", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q11326050", "brand:wikidata=Q38076", "cuisine=burger", "cuisine=noodle", "highway=secondary"]}
+{"id": "filled/tokyo/0148", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q6137375", "brand:wikidata=Q848773", "cuisine=beef_bowl", "highway=secondary", "highway=tertiary", "highway=trunk", "highway=trunk_link"]}
+{"id": "filled/tokyo/0149", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q11322732", "brand:wikidata=Q3541983", "brand=DOUTOR", "building=office", "cuisine=coffee_shop"]}
+{"id": "filled/tokyo/0150", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q38076", "cuisine=burger", "tourism=hotel"]}
+{"id": "filled/tokyo/0151", "osm_tag_hints": ["amenity=cafe", "brand:wikidata=Q11305988", "brand=ST.MARC CAFÉ", "cuisine=coffee_shop", "shop=mall"]}
+{"id": "filled/tokyo/0152", "osm_tag_hints": ["amenity=karaoke_box", "brand:wikidata=Q11294889", "shop=department_store"]}
+{"id": "filled/tokyo/0153", "osm_tag_hints": ["amenity=restaurant", "brand:wikidata=Q886564", "building=commercial", "cuisine=italian"]}
+{"id": "filled/tokyo/0154", "osm_tag_hints": ["brand:wikidata=Q26070", "brand=UNIQLO", "highway=tertiary", "shop=clothes"]}
+{"id": "filled/tokyo/0155", "osm_tag_hints": ["admin_level=7", "amenity=cafe", "boundary=administrative", "leisure=garden", "name:en=Bunkyō"]}
+{"id": "filled/tokyo/0156", "osm_tag_hints": ["admin_level=7", "boundary=administrative", "name:en=Ota", "shop=butcher", "tourism=hotel"]}
+{"id": "filled/tokyo/0157", "osm_tag_hints": ["admin_level=7", "amenity=parking", "boundary=administrative", "name:en=Katsushika", "shop=electronics"]}
+{"id": "filled/tokyo/0158", "osm_tag_hints": ["admin_level=7", "boundary=administrative", "name:en=Nerima", "office=estate_agent", "tourism=hotel"]}
+{"id": "filled/tokyo/0159", "osm_tag_hints": ["admin_level=7", "amenity=place_of_worship", "boundary=administrative", "name:en=Chiyoda", "religion=shinto", "shop=shoes"]}
+{"id": "filled/tokyo/0160", "osm_tag_hints": ["brand:wikidata=Q26070", "brand=UNIQLO", "highway=primary", "highway=primary_link", "highway=secondary", "highway=trunk", "shop=clothes"]}
+{"id": "filled/tokyo/0161", "osm_tag_hints": ["amenity=college", "amenity=hospital", "amenity=library", "amenity=university", "brand:wikidata=Q11247682", "building=university", "landuse=residential", "shop=convenience", "tourism=information", "tourism=museum"]}
+{"id": "filled/tokyo/0162", "osm_tag_hints": ["amenity=karaoke_box", "brand:wikidata=Q11294889", "leisure=park", "tourism=zoo"]}
+{"id": "filled/tokyo/0163", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q38076", "building=yes", "cuisine=burger", "shop=mall"]}
+{"id": "filled/tokyo/0164", "osm_tag_hints": ["brand:wikidata=Q259340", "brand=7-ELEVEN", "building=yes", "shop=convenience", "tourism=hotel"]}
+{"id": "filled/tokyo/0165", "osm_tag_hints": ["operator:en=East Japan Railway Company", "railway=station", "shop=bicycle"]}
+{"id": "filled/tokyo/0166", "osm_tag_hints": ["leisure=pitch", "operator:en=Tokyo Metro", "railway=station"]}
+{"id": "filled/tokyo/0167", "osm_tag_hints": ["amenity=parking", "operator:en=Toei", "railway=station"]}
+{"id": "filled/tokyo/0168", "osm_tag_hints": ["operator:en=East Japan Railway Company", "railway=station", "shop=pastry"]}
+{"id": "filled/tokyo/0169", "osm_tag_hints": ["operator:en=Toei", "railway=station", "shop=convenience"]}
+{"id": "filled/tokyo/0170", "osm_tag_hints": ["amenity=place_of_worship", "amenity=restaurant", "brand:wikidata=Q886564", "cuisine=italian"]}
+{"id": "filled/tokyo/0171", "osm_tag_hints": ["brand:wikidata=Q1557223", "brand=LAWSON", "railway=station", "shop=convenience"]}
+{"id": "filled/tokyo/0172", "osm_tag_hints": ["brand:wikidata=Q1038929", "brand=MINISTOP", "shop=convenience", "shop=mall"]}
+{"id": "filled/tokyo/0173", "osm_tag_hints": ["brand:wikidata=Q11247682", "building=retail", "shop=convenience"]}
+{"id": "filled/tokyo/0174", "osm_tag_hints": ["amenity=fast_food", "brand:wikidata=Q177054", "cuisine=burger", "leisure=park", "tourism=zoo"]}
